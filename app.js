@@ -32,12 +32,15 @@ function readBooks(library) {
 }
 
 
-
 const book = new Book("The Hobbit", "J.R.R. Tolkien", 295, "not read yet" );
 
 
 console.log(book.info())
 
-addBookToLibrary();
 
 readBooks(myLibrary);
+
+
+let button = document.querySelector('.button').addEventListener('click', () => {
+    
+})
